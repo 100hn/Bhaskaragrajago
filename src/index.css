@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../src/assets/Images/buy-indian-spices.jpg') center/cover;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spice-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1596097557971-9d3224578fb5?auto=format&fit=crop&q=80') center/cover;
+  }
+  
